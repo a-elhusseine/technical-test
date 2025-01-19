@@ -8,7 +8,7 @@ def set_default_group_settings(cr, registry):
 
     env = api.Environment(cr, SUPERUSER_ID, {})
     default_team_id = env.ref("numigi_test_crm_abderrahmani.crm_team_sales_team")
-    #Update de l'utilisation des leads.
+    # Update de l'utilisation des leads.
     env["ir.config_parameter"].set_param("crm.generate_lead_from_alias", True)
     config = env["res.config.settings"].search([], limit=1, order="id desc")
     if not config:
