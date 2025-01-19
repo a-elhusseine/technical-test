@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from datetime import timedelta
 from odoo import models, fields, api
 from werkzeug.urls import url_join
@@ -13,7 +14,7 @@ class CrmLead(models.Model):
                     "stage_id",
                     "=",
                     self.env.ref("crm.stage_lead1").id,
-                ),  # Assuming "draft" stage
+                ),
                 ("create_date", "<", fields.Datetime.now() - timedelta(days=10)),
             ]
         )

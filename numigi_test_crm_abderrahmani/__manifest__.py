@@ -1,15 +1,19 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 {
     "name": "Numigi test crm Abderrahmani",
     "version": "1.0",
     "category": "Sales/CRM",
     "summary": "Hello Numigi ",
-    "description": "",
+    "description": """
+Module de Test Technique CRM ABDERRAHMANI
+=========================================
+Ce module permet d'évaluer les compétences techniques du candidat
+        """,
     "website": "https://github.com/a-elhusseine",
     "depends": [
         "crm",
+        "website_crm",
         "sales_team",
     ],
     "data": [
