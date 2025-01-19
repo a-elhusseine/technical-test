@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record model="crm.team" id="crm_team_technical_support">
+            <field name="name">Technical suport team</field>
+            <field name="company_id" eval="False"/>
+        </record>
+
+        <record model="crm.team" id="crm_team_sales_team">
+            <field name="name">Sales team</field>
+            <field name="company_id" eval="False"/>
+        </record>
+
+        <record model="crm.team" id="crm_team_after_sale">
+            <field name="name">After-sales service team</field>
+            <field name="alias_contact">partners</field>
+            <field name="company_id" eval="False"/>
+        </record>
+
+    </data>
+</odoo>
