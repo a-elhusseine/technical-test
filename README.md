@@ -67,3 +67,9 @@ Ce module répond à une série de personnalisations pour le module CRM dans Odo
 ### 3. **Tests d'accès et permissions :**
 
 - Vérification que le champ "Revenu espéré" n'est visible que pour les administrateurs des ventes.
+
+
+
+# Resultat du test 
+## Candidature refusé pour le motif : meilleur profiles , retour sur le code avec la mention code de trés bonne qualité .
+
