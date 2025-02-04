@@ -71,5 +71,5 @@ Ce module répond à une série de personnalisations pour le module CRM dans Odo
 
 
 # Resultat du test 
-## Candidature refusé pour le motif : meilleur profiles , retour sur le code avec la mention code de trés bonne qualité .
+## retour sur le code avec la mention code de trés bonne qualité .
 
